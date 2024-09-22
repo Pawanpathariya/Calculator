@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#box{
+    position: relative;
+    left: 40%;
+    top: 100px;
+    width: 350px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+   background-color: rgb(21, 93, 115);
+}
+#txtbox{
+    height: 80px;
+    width: 300px;
+    text-align: end;
+    padding-right: 20px;
+    border: 1px dotted;
+    border-radius: 20px;
+}
+
+#box1{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   gap: 20px;
+}
+button{
+    width: 60px;
+    height: 50px;
+    border: 0px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+button:hover{
+    background-color:aqua;
+}
+#btneq{
+    background-color:aqua;
+}
+#btneq:hover{
+    background-color: bisque;
+}
